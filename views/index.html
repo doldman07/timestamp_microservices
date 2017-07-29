@@ -17,15 +17,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
   </head>
   <body>
     
-    <div class="row text-center">
-      <h1>
-        Timestamp Microservice
-      </h1>
+    <div class="container-fluid" id="full-page">
+      <header class="row text-center">
+      <h1>Timestamp Microservice</h1>
+    </header>
+      <div id="directions">
+        <h1>Directions and Purpose</h1>
+        <ul>
+          <li>
+            <strong>User Story:</strong> I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
+          </li>
+          <li>
+            <strong>User Story:</strong> If it does, it returns both the Unix timestamp and the natural language form of that date.
+          </li>
+          <li>
+            <strong>User Story:</strong>  If it does not contain a date or Unix timestamp, it returns null for those properties.
+          </li>
+        </ul>
+      </div>
+      <div id="output">
+        <h1>Your Output</h1>
+      </div>
+      <footer>&copy; 2017 Doug Oldfather</footer>
     </div>
+    
+    
+    
+    
     
     <!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
